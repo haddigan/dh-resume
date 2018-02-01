@@ -1,6 +1,6 @@
 import React from "react";
 
-const BlogLinks = () => (
+const Education = () => (
   <div>
     <h2>📝 Latest Blog Posts</h2>
     <ul style={{ listStyle: "none" }}>
@@ -22,4 +22,4 @@ const BlogLinks = () => (
   </div>
 );
 
-export default BlogLinks;
+export default Education;
