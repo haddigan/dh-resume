@@ -1,10 +1,20 @@
-# gatsby-starter-product-guy
+# Dan Haddigan's resume.
 
-🚀 Gatsby Starter Product Guy Portfolio - Developed in ⚛️ React
+Bootstrapped with: 
+[🚀 Gatsby Starter Product Guy Portfolio](https://github.com/amandeepmittal/gatsby-starter-product-guy) - Developed in ⚛️ React
 
-**[Preview Link](http://gatsby-starter-product-guy.surge.sh/)**
+## What is this?
 
-## Installation
+Just go to https://www.danhaddigan.com
+
+## If you know what you're doing:
+
+```
+git clone <this repo>
+cd <this repo>
+yarn
+yarn start
+```
 
 ## Features
 
