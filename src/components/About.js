@@ -2,10 +2,11 @@ import React from "react";
 
 const About = () => (
   <div>
-    <h2>👉 Currently</h2>
     <ul style={{ listStyle: "none" }}>
-      <li>- Living on Pale Blue Dot 📍 🌏</li>
-      <li>- Working Remotely 💻</li>
+      <li>Philadelphia, PA</li>
+      <li>haddigan@gmail.com</li>
+      <li><a href="https://github.com/haddigan/">@haddigan</a></li>
+      <li>(610) 570-8627</li>
     </ul>
   </div>
 );
