@@ -22,7 +22,8 @@ class IndexPage extends Component {
             display: "flex",
             justifyContent: "center",
             flexFlow: "row-reverse wrap",
-            margin: "auto"
+            margin: "auto",
+            maxWidth: "90%"
           }}
         >
           <div className="avatar" style={{ flexDirection: "column" }}>
@@ -45,7 +46,7 @@ class IndexPage extends Component {
             <h1>{siteMetadata.author}</h1>
             <h3>{siteMetadata.description}</h3>
             <About />
-            <Projects projectEdges={projectEdges} />
+            {/* <Projects projectEdges={projectEdges} /> */}
             <Skills />
             <Before />
             <Education />
