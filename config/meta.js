@@ -1,20 +1,19 @@
 module.exports = {
   site: {
-    title: "Gatsby Starter Product Guy",
-    Keywords: "gatsby starter"
+    title: "Dan Haddigan Resume"
   },
   author: {
-    name: "name",
-    description: "personal site"
+    name: "Dan Haddigan",
+    description: "resume"
   },
   twitter: {
-    creator: "@amanhimself"
+    creator: "@danhaddigan"
   },
   og: {
-    title: "Product Guy",
-    description: "personal website",
-    url: "http://gatsby-starter-product-guy.surge.sh",
-    site_name: "Product Guy",
+    title: "Dan Haddigan",
+    description: "resume",
+    url: "http://www.danhaddigan.com",
+    site_name: "Dan Haddigan",
     type: "website"
   }
 };
