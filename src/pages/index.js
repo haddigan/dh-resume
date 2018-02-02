@@ -27,23 +27,23 @@ class IndexPage extends Component {
           }}
         >
           <div className="avatar" style={{ flexDirection: "column" }}>
-            <img
-              style={{
-                width: "250px",
-                borderStyle: "solid",
-                borderColor: "#dfdbe5",
-                borderRadius: "50%"
-              }}
-              src={ProfilePic}
-              alt="avatar"
-            />
-            <div
-              style={{ fontSize: "32px", height: "50px", maxWidth: "350px" }}
-            >
+            <div>
+              <img
+                style={{
+                  width: "250px",
+                  borderStyle: "solid",
+                  borderColor: "#dfdbe5",
+                  borderRadius: "50%"
+                }}
+                src={ProfilePic}
+                alt="avatar"
+              />
+            </div>
+            <div>
+              <h1>{siteMetadata.author}</h1>
             </div>
           </div>
           <div style={{ flexDirection: "column" }}>
-            <h1>{siteMetadata.author}</h1>
             <h3>{siteMetadata.description}</h3>
             <About />
             {/* <Projects projectEdges={projectEdges} /> */}
@@ -52,10 +52,6 @@ class IndexPage extends Component {
             <Education />
             <Favorite />
           </div>
-        </div>
-        <hr />
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <Footer />
         </div>
       </div>
     );
