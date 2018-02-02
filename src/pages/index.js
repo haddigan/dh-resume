@@ -10,7 +10,6 @@ import Education from "../components/Education";
 import Skills from "../components/Skills";
 import Before from "../components/Before";
 import Favorite from "../components/Favorite";
-import Footer from "../components/Footer";
 
 class IndexPage extends Component {
   render() {
@@ -27,23 +26,19 @@ class IndexPage extends Component {
           }}
         >
           <div className="avatar" style={{ flexDirection: "column" }}>
-            <div>
-              <img
-                style={{
-                  width: "250px",
-                  borderStyle: "solid",
-                  borderColor: "#dfdbe5",
-                  borderRadius: "50%"
-                }}
-                src={ProfilePic}
-                alt="avatar"
-              />
-            </div>
-            <div>
-              <h1>{siteMetadata.author}</h1>
-            </div>
+            <img
+              style={{
+                width: "250px",
+                borderStyle: "solid",
+                borderColor: "#dfdbe5",
+                borderRadius: "50%"
+              }}
+              src={ProfilePic}
+              alt="avatar"
+            />
           </div>
           <div style={{ flexDirection: "column" }}>
+            <h1>{siteMetadata.author}</h1>
             <h3>{siteMetadata.description}</h3>
             <About />
             {/* <Projects projectEdges={projectEdges} /> */}
