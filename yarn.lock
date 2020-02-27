@@ -5065,8 +5065,8 @@ mitt@^1.1.2:
   resolved "https://registry.yarnpkg.com/mitt/-/mitt-1.1.3.tgz#528c506238a05dce11cd914a741ea2cc332da9b8"
 
 mixin-deep@^1.2.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/mixin-deep/-/mixin-deep-1.3.0.tgz#47a8732ba97799457c8c1eca28f95132d7e8150a"
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/mixin-deep/-/mixin-deep-1.3.2.tgz#1120b43dc359a785dce65b55b82e257ccf479566"
   dependencies:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
@@ -6570,12 +6570,6 @@ react-side-effect@^1.1.0:
   dependencies:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
-
-react-typeout@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-typeout/-/react-typeout-1.0.0.tgz#b1e15860051a625e75c5cd7ca0cd9022bb398996"
-  dependencies:
-    prop-types "^15.5.10"
 
 react-typography@^0.16.1:
   version "0.16.13"
